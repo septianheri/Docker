@@ -2,3 +2,4 @@ echo "deb https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/source
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 RUN npm install puppeteer
+
